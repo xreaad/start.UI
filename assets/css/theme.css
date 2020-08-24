@@ -55,7 +55,8 @@ a{
 /* --------------------- header ------------------- */
 
 .nav{
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 .nav ul{
