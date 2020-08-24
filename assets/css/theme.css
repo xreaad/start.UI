@@ -54,6 +54,9 @@ a{
 }
 /* --------------------- header ------------------- */
 
+.nav{
+    display: block;
+}
 
 .nav ul{
     display: flex;
