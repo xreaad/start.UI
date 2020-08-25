@@ -100,7 +100,7 @@ p{
     font-size: 1.3rem;
     padding: .2rem .5rem;
     border-radius: 20%;
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .nav-link:hover{
     color: var(--white);
