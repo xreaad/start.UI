@@ -3,6 +3,7 @@
 'use strict';
 
 $(document).ready(function(){
+	'use strict'
 	$('.menu-toglle').click(function(){
 		if ($('.nav').css('display') === 'none'){
 			$('.nav').show(300, function(){
@@ -15,7 +16,7 @@ $(document).ready(function(){
 				$('#toglle').addClass('svg-inline--fa fa-bars fa-w-14')
 			});
 		};
-	});
+	}); // menu-toglle
 });
 
 
