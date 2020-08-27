@@ -1,3 +1,3 @@
 # xreaad.github.io :fire:
 
-my personal web site :sunglasses: :sugat:
+my personal web site :sunglasses: :sugar:
