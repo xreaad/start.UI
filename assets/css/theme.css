@@ -118,14 +118,6 @@ p{
 /* ---------------- section about ------------------- */
 
 .about-section{
-    padding: 3rem;
+    margin: 3rem;
     display: flex;
-}
-.personal-image, .about{
-    padding: 2rem;
-}
-img{
-    height: 7rem;
-    width: 5rem;
-    box-shadow: 6px 6px  var(--shadow);
 }
