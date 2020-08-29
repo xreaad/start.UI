@@ -17,8 +17,8 @@ $(document).ready(function(){
 			});
 		};
 	}); // menu-toglle
-	
-});
+}); // main syntaxe
+
 
 
 
