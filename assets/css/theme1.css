@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+:root{
+    --mainfont : 'Grandstander', cursive;
+    --secondfont : 'Courgette', cursive;
+    --thirdfont : 'Teko', sans-serif;
+    --bgcolor : #00A5CF;
+    --secondcolor : #9fffcb;
+    --thirdcolor : #004E64;
+    --color : #7AE582;
+}
+/* ---------------------------- global styling ----------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
+/* ---------------------------- global styling ----------------------------- */
+
+.header{
+    background-color: var(--bgcolor);
+    height: 2.8rem;
+}
+.navigation{
+    padding-top: .7rem;
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.nav{
+    display: block;
+}
+.banner{
+    font-family: var(--secondfont);
+    font-weight: bolder;
+    font-size: 1.4rem;
+    color: var(--color);
+}
+.banner span{
+    color: black;
+}
+.nav-bar{
+    transition: .5s ease-in-out;
+}
+.nav-item{
+    margin: 0 .5rem;
+}
+.nav-link{
+    letter-spacing: .1rem;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: var(--thirdfont);
+}
+
+
+.menu-toglle{
+    display: none;
+}
+
+
+/* ------------------------ Small devices (landscape phones, 576px and up) ----------------------*/
+@media (max-width: 576px){
+    .menu-toglle{
+        display: block;
+        position: absolute;
+        left: 90%;
+        top: .5rem;
+        padding: .3rem;
+        line-height: 15px;
+        background-color: var(--secondcolor);
+        border-radius: 10%;
+        z-index: 999;
+    }
+    .banner{
+        font-size: 1.4rem;
+    }
+    .nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(94, 88, 88, .85);
+        display: none;
+    }
+    .nav-bar{
+        position: absolute;
+        display: block;
+        z-index: 888;
+        top: .3rem;
+        left: 10%;
+        transition: .5s ease-in-out;
+    }
+}
+
+/*/ Medium devices (tablets, 768px and up)
+@media (min-width: 768px){
+    
+}
+
+/* // Large devices (desktops, 992px and up) 
+@media (min-width: 992px){
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px){
+
+}
+*/
