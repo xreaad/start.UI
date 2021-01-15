@@ -103,6 +103,7 @@ ul { list-style: none;}
 
 /* ==================== about page ==================== */
 .about {
+	padding-top: 160px;
 	max-width: 80vw;
 	margin: 0 auto;
 }
