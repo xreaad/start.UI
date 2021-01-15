@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 /* ================== Global style ==================== */
 * { margin : 0; padding : 0; box-sizing : border-box; }
-body { color: #08fdd8; overflow: hidden; font-family: var(--main-font);}
+body { color: #08fdd8; overflow-x: hidden; font-family: var(--main-font);}
 a {text-decoration: none; color: #08fdd8;}
 ul { list-style: none;}
 .svg-inline--fa {cursor: pointer; transition: .7s ease;}
@@ -101,7 +101,7 @@ ul { list-style: none;}
 @media (max-width: 960px){
 	.view { display: block; }
 	.side-bar {
-		width: 100vw;
+		width: 100%;
 		height: 60px;
 		background-color: var(--bg-color);
 		display: flex; 
@@ -136,7 +136,7 @@ ul { list-style: none;}
 		display: flex;
 		justify-content: space-around;
 		background-color: var(--bg-color);
-		transform: translateX(100%);
+		transform: translateX(-100%);
 	}
 	.menu-toggle {
 		display: block;
@@ -151,7 +151,7 @@ ul { list-style: none;}
 	.media-nav {
 		transition: .7s ease;
 		position: absolute;
-		bottom: 0px;
+		bottom: 0%;
 		width: 100%;
 		height: 30px;
 		display: flex;
