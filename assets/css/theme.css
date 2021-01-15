@@ -208,6 +208,7 @@ ul { list-style: none;}
 	}
 	.menu-toggle > .fa-bars {font-size: 1.5rem;}
 	.media-nav {
+		z-index: 999;
 		transition: .7s ease;
 		position: fixed;
 		bottom: 0%;
