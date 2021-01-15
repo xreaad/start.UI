@@ -133,6 +133,7 @@ ul { list-style: none;}
 		top: 60px;
 		width: 100%;
 		height: 60px;
+		margin: 0;
 		display: flex;
 		justify-content: space-around;
 		background-color: var(--bg-color);
@@ -167,7 +168,7 @@ ul { list-style: none;}
 
 @media (max-width: 440px){
 	.text-zone > h1 { font-size: 2.1rem; }
-	.btn { margin-top: 1rem; padding: .4rem .9rem; }
+	.btn { margin-top: 1rem; padding: .5rem .9rem; }
 	.description { margin-top: .2rem; font-size: 10px; letter-spacing: .5px; }
 	.btn > a { letter-spacing: 1.2px; font-size: 11px;}
 
@@ -177,7 +178,7 @@ ul { list-style: none;}
 
 @media (max-width: 375px){
 	.text-zone > h1 { font-size: 2rem; }
-	.btn { margin-top: .6rem; padding: .2rem .7rem; }
+	.btn { margin-top: .6rem; padding: .6rem .7rem; }
 	.description { margin-top: .2rem; font-size: 10px; letter-spacing: .5px; }
 	.btn > a { letter-spacing: 1px; font-size: 11px;}
 }
