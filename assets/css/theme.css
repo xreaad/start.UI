@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Redressed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 /* ================== Global style ==================== */
-* { margin : 0; padding : 0; box-sizing : border-box; }
-body { color: #08fdd8; overflow-x: hidden; font-family: var(--main-font);}
+* { margin : 0; padding : 0; box-sizing : border-box;  overflow: hidden;}
+body { width: 100%; height: 100%; color: #08fdd8; font-family: var(--main-font); display: block;}
 a {text-decoration: none; color: #08fdd8;}
 ul { list-style: none;}
 .svg-inline--fa {cursor: pointer; transition: .7s ease;}
@@ -129,14 +129,14 @@ ul { list-style: none;}
 	.svg-inline--fa { font-size: 1rem;}
 	.site-nav {
 		transition: .7s ease;
-		position: absolute;
+		position: fixed;
 		top: 60px;
 		width: 100%;
 		height: 60px;
 		display: flex;
 		justify-content: space-around;
 		background-color: var(--bg-color);
-		transform: translateX(-100%);
+		transform: translateX(100%);
 	}
 	.menu-toggle {
 		display: block;
@@ -150,7 +150,7 @@ ul { list-style: none;}
 	.menu-toggle > .fa-bars {font-size: 1.5rem;}
 	.media-nav {
 		transition: .7s ease;
-		position: absolute;
+		position: fixed;
 		bottom: 0%;
 		width: 100%;
 		height: 30px;
@@ -159,14 +159,14 @@ ul { list-style: none;}
 		background-color: var(--bg-color);
 		transform: translateX(-100%);
 	}
-	.text-zone > h1 { font-size: 2rem; }
+	.text-zone > h1 { font-size: 2.4rem; }
 	.btn { margin-top: 1.2rem; padding: .4rem .8rem; }
 	.description { margin-top: .4rem; font-size: 10px; letter-spacing: 2px; }
 }
 
 
 @media (max-width: 440px){
-	.text-zone > h1 { font-size: 1.6rem; }
+	.text-zone > h1 { font-size: 2.1rem; }
 	.btn { margin-top: 1rem; padding: .4rem .9rem; }
 	.description { margin-top: .2rem; font-size: 10px; letter-spacing: .5px; }
 	.btn > a { letter-spacing: 1.2px; font-size: 11px;}
@@ -176,7 +176,7 @@ ul { list-style: none;}
 
 
 @media (max-width: 375px){
-	.text-zone > h1 { font-size: 1.4rem; }
+	.text-zone > h1 { font-size: 2rem; }
 	.btn { margin-top: .6rem; padding: .2rem .7rem; }
 	.description { margin-top: .2rem; font-size: 10px; letter-spacing: .5px; }
 	.btn > a { letter-spacing: 1px; font-size: 11px;}
