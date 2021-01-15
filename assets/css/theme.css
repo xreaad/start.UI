@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Redressed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
 /* ================== Global style ==================== */
 * { margin : 0; padding : 0; box-sizing : border-box;  overflow: hidden;}
 body { width: 100%; height: 100%; color: #08fdd8; font-family: var(--main-font); display: block;}
@@ -22,10 +24,11 @@ ul { list-style: none;}
 :root {
 	--main-color : #08fdd8;
 	--second-color : #8d8d8d ;
+	--text-color : #fff;
 	--bg-color : #181818;
 	--second-bg-color : #1d1d1d;
 	--title-font : 'Redressed', cursive;
-	--text-font : 'Merriweather', serif;
+	--text-font : 'Hammersmith One', sans-serif;
 	--regular-font : 'Open Sans', sans-serif;
 }
 /* ================== root ==================== */
@@ -96,6 +99,47 @@ ul { list-style: none;}
 /* ================== overview ==================== */
 
 
+
+
+/* ==================== about page ==================== */
+.about {
+	max-width: 80vw;
+	margin: 0 auto;
+}
+.content {
+	margin-top: .7rem;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-family: var(--text-font);
+	color: var(--text-color);
+}
+.about h2 {
+	font-family: var(--title-font);
+	font-size: 2rem;
+	color: rgb(247, 49, 204);
+}
+.about h3 {
+	margin-top: 1rem;
+	font-family: var(--title-font);
+	font-size: 1.6rem;
+	color: rgb(247, 49, 204);
+}
+.list-tech {
+	margin-top: 1rem;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.icon-item {
+	font-size: 2rem;
+}
+.icon-item > i:nth-child(1) {
+	color: yellow;
+}
+
+
+
 /* ============================media======================================= */
 
 @media (max-width: 960px){
@@ -116,6 +160,17 @@ ul { list-style: none;}
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/* ======================================================================= */
 
 @media (max-width: 750px){
 	.site-nav .nav-item { margin: 0 25px; }
