@@ -127,7 +127,7 @@ ul { list-style: none;}
 	color: rgb(247, 49, 204);
 }
 .list-tech {
-	margin: 1rem 0;
+	margin: 60px 0;
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
