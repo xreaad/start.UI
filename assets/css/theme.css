@@ -186,6 +186,7 @@ ul { list-style: none;}
 @media (max-width: 680px){
 	/* -- menu toggle -- */
 	.svg-inline--fa { font-size: 1rem;}
+	.side-bar {top: 0;}
 	.site-nav {
 		transition: .7s ease;
 		position: fixed;
@@ -212,10 +213,11 @@ ul { list-style: none;}
 		z-index: 999;
 		transition: .7s ease;
 		position: fixed;
-		bottom: 0%;
+		bottom: 0;
 		width: 100%;
 		height: 30px;
 		display: flex;
+		line-height: 30px;
 		justify-content: space-around;
 		background-color: var(--bg-color);
 		transform: translateX(-100%);
