@@ -10,5 +10,3 @@ let body = select('body');
 menuToggler.addEventListener('click', () => {
     body.classList.toggle('open');
 })
-
-
