@@ -20,8 +20,6 @@ ul { list-style: none;}
 .open .fa-times { display: block; line-height: 60px; height: 60px; font-size: 1.5rem;}
 /* ================== Global style ==================== */
 
-
-
 /* ================== root ==================== */
 :root {
 	--main-color : #08fdd8;
