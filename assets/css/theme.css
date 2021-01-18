@@ -224,7 +224,6 @@ ul { list-style: none;}
 }
 /* ======================================================================================================== */
 
-
 @media (max-width: 375px){
 	.text-zone > h1 { font-size: 2rem; }
 	.btn { margin-top: .6rem; padding: .6rem .7rem; }
