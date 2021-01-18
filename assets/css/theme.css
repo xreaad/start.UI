@@ -87,7 +87,6 @@ ul { list-style: none;}
 	font-family: var(--regular-font);
 	color: var(--second-color);
 }
-
 .btn {
 	margin-top: 1.6rem;
 	padding: .6rem 1.2rem;
