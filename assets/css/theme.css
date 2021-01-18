@@ -98,7 +98,6 @@ ul { list-style: none;}
 .btn:hover { background-color: var(--main-color); cursor: pointer; }
 .btn:hover > a { color: var(--second-bg-color);}
 
-
 /* ================== overview ==================== */
 
 
