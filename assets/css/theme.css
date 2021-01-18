@@ -61,7 +61,6 @@ ul { list-style: none;}
 	flex-direction: column;
 	align-items: center;
 } 
-
 .site-nav .nav-item { margin: 17px 0; }
 .media-nav .nav-item { margin: 7px 0;}
 .svg-inline--fa { color: var(--second-color);}
