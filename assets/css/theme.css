@@ -50,14 +50,12 @@ ul { list-style: none;}
 	flex-direction: column; 
 	justify-content: space-between;
 }
-
 .side-bar .avatar > img {
 	height: 100%;
 	width: 60px;
 	object-fit: contain;
 	
 } /* side bar title (image) */
-
 .nav-list {
 	display: flex;
 	flex-direction: column;
