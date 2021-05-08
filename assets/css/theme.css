@@ -10,7 +10,7 @@ body { width: 100%; height: 100%; color: #08fdd8; font-family: var(--main-font);
 a {text-decoration: none; color: #08fdd8;}
 ul { list-style: none;}
 .svg-inline--fa {cursor: pointer; transition: .7s ease;}
-.svg-inline--fa:hover { color: var(--main-color); transform: rotate(360deg);}
+.svg-inline--fa:hover { color: var(--main-color); animation: animate .4s ease-in-out}
 .site-nav .svg-inline--fa {font-size: 1.2rem;}
 .media-nav .svg-inline--fa {font-size: .9rem;}
 .active > .svg-inline--fa { color: var(--main-color); }
@@ -22,6 +22,13 @@ ul { list-style: none;}
 .open .fa-times { display: block; line-height: 60px; height: 60px; font-size: 1.5rem;}
 /* ================== Global style ==================== */
 
+
+@keyframes animate {
+	0% {transform: rotate(0deg);}
+	30% {transform: rotate(-40deg);}
+	70% {transform: rotate(40deg);}
+	100% {transform: rotate(0deg);}
+}
 
 
 /* ================== root ==================== */
@@ -65,6 +72,7 @@ ul { list-style: none;}
 .site-nav .nav-item { margin: 17px 0; }
 .media-nav .nav-item { margin: 7px 0;}
 .svg-inline--fa { color: var(--second-color);}
+
 /* ================== side bar ==================== */
 
 /* ================== overview ==================== */
